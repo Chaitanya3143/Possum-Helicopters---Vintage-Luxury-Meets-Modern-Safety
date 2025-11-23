@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Possum - Vintage-inspired luxury helicopters focused on safety and affordability. Experience the golden age of aviation with modern engineering.">
+    <title>Possum Helicopters - Vintage Luxury Meets Modern Safety</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <span class="logo-text">POSSUM</span>
+                <span class="logo-tagline">Helicopters</span>
+            </a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu">
+                <span class="hamburger"></span>
+                <span class="hamburger"></span>
+                <span class="hamburger"></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="nav-link active">Home</a></li>
+                <li><a href="products.html" class="nav-link">Products</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="privacy.html" class="nav-link">Privacy</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="vintage-emblem" aria-hidden="true">
+                <svg viewBox="0 0 200 200" class="emblem-svg">
+                    <circle cx="100" cy="100" r="95" fill="none" stroke="currentColor" stroke-width="2"/>
+                    <circle cx="100" cy="100" r="85" fill="none" stroke="currentColor" stroke-width="1"/>
+                    <path d="M 100 30 L 110 60 L 140 60 L 115 80 L 125 110 L 100 90 L 75 110 L 85 80 L 60 60 L 90 60 Z" fill="currentColor"/>
+                    <text x="100" y="150" text-anchor="middle" font-size="14" fill="currentColor" font-weight="600">EST. 2025</text>
+                </svg>
+            </div>
+            <h1 class="hero-title">Where Heritage Takes Flight</h1>
+            <p class="hero-tagline">Vintage elegance. Modern engineering. Uncompromising safety.</p>
+            <div class="hero-cta">
+                <a href="products.html" class="btn btn-primary">Explore Our Fleet</a>
+                <a href="#features" class="btn btn-secondary">Learn More</a>
+            </div>
+        </div>
+        <div class="hero-scroll" aria-hidden="true">
+            <span>Scroll</span>
+            <div class="scroll-indicator"></div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <h2 class="section-title">The Possum Promise</h2>
+            <div class="features-grid">
+                <article class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                        </svg>
+                    </div>
+                    <h3>Safety First</h3>
+                    <p>Triple-redundant systems and certified by international aviation authorities. Your safety is our heritage.</p>
+                </article>
+                <article class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"/>
+                            <path d="M12 6v6l4 2"/>
+                        </svg>
+                    </div>
+                    <h3>Timeless Design</h3>
+                    <p>Inspired by the golden age of aviation, crafted with modern materials and techniques.</p>
+                </article>
+                <article class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+                        </svg>
+                    </div>
+                    <h3>Accessible Luxury</h3>
+                    <p>Premium craftsmanship without the premium price tag. Aviation excellence for everyone.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section class="featured-products">
+        <div class="container">
+            <h2 class="section-title">Featured Aircraft</h2>
+            <div class="products-grid">
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1589308078059-be1415eab4c3?w=800&h=600&fit=crop" alt="Possum Classic rotary-wing aircraft in vintage cream finish" loading="lazy">
+                        <span class="product-badge">Bestseller</span>
+                    </div>
+                    <div class="product-info">
+                        <h3>The Classic</h3>
+                        <p>Our signature model. Timeless aesthetics meet cutting-edge avionics.</p>
+                        <a href="product-classic.html" class="btn btn-outline">View Details</a>
+                    </div>
+                </article>
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1574770118793-8a4b8b4cf4d4?w=800&h=600&fit=crop" alt="Possum Voyager long-range helicopter in polished steel" loading="lazy">
+                        <span class="product-badge">New</span>
+                    </div>
+                    <div class="product-info">
+                        <h3>The Voyager</h3>
+                        <p>Extended range for the adventurous spirit. Go farther in style.</p>
+                        <a href="product-voyager.html" class="btn btn-outline">View Details</a>
+                    </div>
+                </article>
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1615981002419-5c3c7e5c4aeb?w=800&h=600&fit=crop" alt="Possum Executive luxury helicopter with leather interior" loading="lazy">
+                    </div>
+                    <div class="product-info">
+                        <h3>The Executive</h3>
+                        <p>Bespoke luxury for discerning clients. Handcrafted excellence.</p>
+                        <a href="product-executive.html" class="btn btn-outline">View Details</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">What Our Pilots Say</h2>
+            <div class="testimonials-grid">
+                <blockquote class="testimonial-card">
+                    <p>"Flying a Possum is like stepping back to the golden age while enjoying all modern comforts. Absolutely magical."</p>
+                    <footer>
+                        <cite>— Captain Sarah Mitchell</cite>
+                        <span>Commercial Pilot, 15 years</span>
+                    </footer>
+                </blockquote>
+                <blockquote class="testimonial-card">
+                    <p>"The attention to safety detail is unparalleled. I trust Possum with my life every single flight."</p>
+                    <footer>
+                        <cite>— James Chen</cite>
+                        <span>Private Owner</span>
+                    </footer>
+                </blockquote>
+                <blockquote class="testimonial-card">
+                    <p>"Luxury helicopters were always out of reach until Possum. Now I live my dream every day."</p>
+                    <footer>
+                        <cite>— Maria Rodriguez</cite>
+                        <span>Flight Enthusiast</span>
+                    </footer>
+                </blockquote>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Visit Our Hangar</h3>
+                    <p>Experience Possum helicopters firsthand. Schedule a private viewing and test flight.</p>
+                    <ul class="contact-details">
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                <circle cx="12" cy="10" r="3"/>
+                            </svg>
+                            <span>1847 Aviation Boulevard, Heritage City</span>
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                            </svg>
+                            <span>+1 (555) 0847-HELI</span>
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                <polyline points="22,6 12,13 2,6"/>
+                            </svg>
+                            <span>contact@possumhelicopters.com</span>
+                        </li>
+                    </ul>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Possum Helicopters</h4>
+                    <p>Where heritage takes flight. Crafting vintage-inspired luxury helicopters since 2025.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook">FB</a>
+                        <a href="#" aria-label="Instagram">IG</a>
+                        <a href="#" aria-label="Twitter">TW</a>
+                        <a href="#" aria-label="LinkedIn">LI</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Possum Helicopters. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
